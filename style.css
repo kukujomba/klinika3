@@ -133,7 +133,7 @@ body {
 
 #alert {
     position: relative;
-    top: 75px;
+    padding-top: 75px;
     max-width: 1150px;
     height: auto;
     margin: 0 auto;
@@ -155,7 +155,6 @@ body {
 
 #news {
     position: relative;
-    top: 110px;
     max-width: 1150px;
     height: 500px;
     margin: 0 auto;
@@ -293,4 +292,15 @@ p {
     background-size: cover;
     background-position: 50% 0%;
     background-image: url(./images/contacts.jpg);
+}
+
+#main-page-img{
+    position: relative;
+    margin: 30px auto;
+    max-width: 1150px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-image: url(./images/main.jpg);
 }
