@@ -200,7 +200,7 @@ body {
 
 #about, #contacts, #divisions {
     position: relative;
-    top: 50px;
+    top: 10px;
     max-width: 1150px;
     margin: 0 auto;
     padding: 10px;
@@ -249,4 +249,48 @@ p {
     padding-right: 1px;
     font-size: 20px;
     font-weight: bold;
+}
+
+#about-bg {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    background-image: url(./images/about.jpg);
+}
+
+#about-bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#about-bg-title {
+    background: rgba(0, 0, 0, 0.55);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#division-bg {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-image: url(./images/Med.png);
+}
+
+#contact-bg{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-image: url(./images/contacts.jpg);
 }
